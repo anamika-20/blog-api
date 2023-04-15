@@ -34,7 +34,7 @@ app.use("/api/users",userRoutes)
 app.use("/api/posts",postRoutes)
 
 
-app.listen("https://blog-api-one-eta.vercel.app/",() => {
+app.listen(8800,() => {
     console.log('backend listening on');
 }); 
 app.get('/',(req,res)=>console.log(res.json("bhak")))

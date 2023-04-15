@@ -4,6 +4,7 @@ import mysql from "mysql";
 export const db = mysql.createConnection({
     host: '127.0.0.1',
     user: 'root',
+    port: 'https://api-chi-brown.vercel.app/',
     password: 'ANA@20mika',
     database:'blog',
 });
