@@ -1,5 +1,5 @@
 import mysql from "mysql";
-var mysql = require('mysql');
+//var mysql = require('mysql');
 
 export const db = mysql.createConnection({
     host: '127.0.0.1',
