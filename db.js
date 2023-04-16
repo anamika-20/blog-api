@@ -1,5 +1,5 @@
 import mysql from "mysql";
-const mysql = require('serverless-mysql');
+//const mysql = require('serverless-mysql');
 //var mysql = require('mysql');
 
 export const db = mysql.createConnection({
