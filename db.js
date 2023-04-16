@@ -1,10 +1,10 @@
 import mysql from "mysql";
-
+var mysql = require('mysql');
 
 export const db = mysql.createConnection({
     host: '127.0.0.1',
     user: 'root',
-    port: 'https://api-chi-brown.vercel.app/',
+    port: 'https://blog-api-one-eta.vercel.app/',
     password: 'ANA@20mika',
     database:'blog',
 });
