@@ -1,7 +1,8 @@
-//import mysql from "mysql";
+import mysql from "mysql";
 //const mysql = require('serverless-mysql');
-var mysql = require('mysql');
-const dotenv = require('dotenv');
+//var mysql = require('mysql');
+import dotenv from 'dotenv';
+
 dotenv.config();
 
 
